@@ -100,6 +100,13 @@ body {
   text-align: center;
 }
 
+.form-container {
+  padding: 40px;
+  margin-bottom: 50px;
+  background-color: rgba(0, 69, 128, 0.95);
+  color: #ffffff;
+}
+
 .form-container form {
   display: flex;
   justify-content: center;
@@ -110,7 +117,14 @@ body {
 
 .form-container h2 {
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #004580;
+  color: #ffffff;
 }
 
 @media (max-width: 700px) {
